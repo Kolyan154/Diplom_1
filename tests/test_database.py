@@ -2,8 +2,7 @@ import pytest
 from praktikum.database import Database
 from praktikum.bun import Bun
 from praktikum.ingredient import Ingredient
-from tests.data.bun_data import BunData
-from tests.data.ingredient_data import IngredientData
+from data import BunData, IngredientData
 
 
 class TestDatabase:

@@ -1,6 +1,6 @@
 import pytest
 from praktikum.ingredient import Ingredient
-from tests.data.ingredient_data import IngredientData
+from data import IngredientData
 
 
 class TestIngredient:
